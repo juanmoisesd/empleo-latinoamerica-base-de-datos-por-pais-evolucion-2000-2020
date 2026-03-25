@@ -1,0 +1,13 @@
+from setuptools import setup, find_packages
+setup(
+    name="empleo-latinoamerica-base-de-datos-por-pais-evolucion-2000-2020",
+    version="1.0.0",
+    description="Empleo en Latinoamérica: Base de Datos por País con Evolución 2000-2020 (cada 5 años). DOI: 10.6084/",
+    author="de la Serna, Juan Moisés",
+    url="https://github.com/juanmoisesd/empleo-latinoamerica-base-de-datos-por-pais-evolucion-2000-2020",
+    packages=find_packages(),
+    install_requires=["pandas>=1.3.0","requests>=2.26.0"],
+    python_requires=">=3.7",
+    classifiers=["Programming Language :: Python :: 3","License :: OSI Approved :: MIT License","Topic :: Scientific/Engineering"],
+    keywords="zenodo, open-data",
+)
